@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "95632714106",
+    "firebase_url": "https://kings-landing-1542a.firebaseio.com",
+    "project_id": "kings-landing-1542a",
+    "storage_bucket": "kings-landing-1542a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95632714106:android:9ab5d4c19a28891e720ec3",
+        "android_client_info": {
+          "package_name": "com.luna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95632714106-fmospm260k96qtqbuj6vo423kf6hehlo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-XE3RAW50T7smxAjsRfvXCCd6GOsKcHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95632714106-fmospm260k96qtqbuj6vo423kf6hehlo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

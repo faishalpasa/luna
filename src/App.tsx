@@ -10,6 +10,9 @@ import Home from './screens/Home'
 import Assesment from './screens/Assesment'
 import AssesmentDetail from './screens/AssesmentDetail'
 import Profile from './screens/Profile'
+// import Notif from './screens/Notification'
+
+import { requestUserPermission, NotificationListener } from './utils/notification'
 
 const Tab = createBottomTabNavigator()
 const Stack = createStackNavigator<RootStackParamList>()
@@ -38,6 +41,7 @@ const BottomNavigation = () => {
         options={{ tabBarLabel: 'Assesment' }}
       />
       <Tab.Screen name="TabProfile" component={Profile} options={{ tabBarLabel: 'Profile' }} />
+      {/* <Tab.Screen name="TabNotif" component={Notif} options={{ tabBarLabel: 'Notif' }} /> */}
     </Tab.Navigator>
   )
 }
@@ -47,6 +51,9 @@ const App = () => {
     setTimeout(() => {
       SplashScreen.hide()
     }, 1000)
+
+    requestUserPermission()
+    NotificationListener()
   }, [])
   return (
     <NativeBaseProvider>

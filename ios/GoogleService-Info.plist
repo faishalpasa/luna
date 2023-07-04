@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>95632714106-fbhk5vrgnl5asjec1ji8l2i62d3e4srn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.95632714106-fbhk5vrgnl5asjec1ji8l2i62d3e4srn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDaQJVFflMoW23XiT_BdO6aO3EMqz0VQyo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>95632714106</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.luna</string>
+	<key>PROJECT_ID</key>
+	<string>kings-landing-1542a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kings-landing-1542a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:95632714106:ios:88bf1538d712f5a3720ec3</string>
+	<key>DATABASE_URL</key>
+	<string>https://kings-landing-1542a.firebaseio.com</string>
+</dict>
+</plist>
